@@ -1,0 +1,20 @@
+description = "Navigation bar"
+==
+<section id="navbar" class="mb-3">
+	<nav class="navbar navbar-expand-md fixed-top py-1">
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'home'|page }}">  
+    			<img src="{{ 'rh2.png'|media }}" width="40"class="d-inline-block align-middle mr-2" alt="">
+    			<span class="display-6">rodneyhess.me</span>
+			</a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'journal' ? ' active' }}">
+					<a class="nav-link" href="{{ 'journal'|page }}">journal</a>
+				</li>
+<!--                 <li class="nav-item{{ this.page.baseFileName == 'bike' ? ' active' }}">
+    <a class="nav-link" href="{{ 'bike'|page }}">bike</a>
+</li> -->
+			</ul>
+		</div>
+	</nav>
+</section>

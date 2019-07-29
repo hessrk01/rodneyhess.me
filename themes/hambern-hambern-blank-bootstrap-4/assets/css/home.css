@@ -1,0 +1,15 @@
+body {
+     background: linear-gradient(135deg,#4682B4,#DCDCDC) no-repeat fixed;
+     color: white;
+}
+
+
+.circle-pic {
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 5px;
+}
+
+.jumbo {
+    font-family: 'Nanum Brush Script', cursive;
+}
